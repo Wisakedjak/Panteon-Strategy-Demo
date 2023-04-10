@@ -14,6 +14,12 @@ namespace Utils
         public bool isSoldierSelect,isSoldierMoving,isBuilding,isVisualPlaced;
         public SoldierController soldierController;
         [SerializeField] private Sprite whiteSprite;
+        public LayerMask ignoreLayer;
+
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
 
         private void Start()
         {
@@ -80,7 +86,7 @@ namespace Utils
         private void _castRay()
         {
             Vector3 mouseWorldPosition = Utils.GetMouseWorldPosition();
-            RaycastHit2D hit = Physics2D.Raycast(mouseWorldPosition, Vector2.zero,Mathf.Infinity);
+            RaycastHit2D hit = Physics2D.Raycast(mouseWorldPosition, Vector2.zero,Mathf.Infinity,~ignoreLayer);
             if (hit&& hit.transform.gameObject.CompareTag("Soldier"))
             { 
                 print("select");
@@ -110,7 +116,7 @@ namespace Utils
                 _moveSoldierForAttack(hit.transform.gameObject);
             }
 
-            if (hit&& hit.transform.gameObject.CompareTag("Tile"))
+            if (hit&& hit.transform.gameObject.CompareTag("Tile")&& isSoldierSelect)
             {
                 print("move");
                _moveSoldier();
@@ -121,6 +127,7 @@ namespace Utils
         {
             soldierController = soldier.GetComponent<SoldierController>();
             isSoldierSelect = true;
+            isSoldierMoving = false;
         }
 
         private void _moveSoldier()
@@ -141,6 +148,7 @@ namespace Utils
 
             isSoldierMoving = true;
             isSoldierSelect = false;
+           
         }
         private void _moveSoldierForAttack(GameObject target)
         {

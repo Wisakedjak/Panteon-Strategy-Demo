@@ -1,0 +1,650 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681156710933827, "dur": 556620, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681156710934063, "dur": 14466, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681156710948532, "dur": 527972, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681156711476506, "dur": 13939, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681156711490868, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681156710969051, "dur":1157, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156710970214, "dur":98, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681156710970333, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681156710970349, "dur":250, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681156710970626, "dur":532, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156710971158, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464817, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464969, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464980, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464983, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464988, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464989, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464996, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711464997, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465002, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465003, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465009, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465010, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465015, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465017, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465021, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465022, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465028, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465041, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711465050, "dur":1508, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681156710970864, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710971164, "dur":3982, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710975152, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681156710975155, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710975213, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681156710975215, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710975261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710975688, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681156710977608, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681156710977658, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710977697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710977758, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681156710978741, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1681156710978782, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710978833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710979386, "dur":3517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1681156710982952, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156710983595, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710983637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156710983693, "dur":110774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711094507, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711094546, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711094613, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711094687, "dur":57228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711151989, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711152032, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711152528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711152534, "dur":68972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711221543, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711221579, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711221623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711221630, "dur":74510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711296178, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711296223, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711296268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711296274, "dur":40482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711336793, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711336831, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711337172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681156711337177, "dur":127594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681156711464799, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1681156711464801, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710970890, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710971171, "dur":3980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710975153, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681156710975227, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710975313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710976875, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681156710978108, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681156710978151, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710978236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710978241, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681156710979360, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1681156710979405, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710979444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710979448, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1681156710980348, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156710980389, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710980434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156710980621, "dur":24340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711005000, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711005034, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711005073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711005077, "dur":81018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711086132, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711086173, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711086215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711086219, "dur":139593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711225851, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711225888, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711225937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711225969, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711228378, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711228412, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711228452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711228458, "dur":30403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711258900, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711258943, "dur":5058, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711264008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711264014, "dur":23961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711288010, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711288048, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711288087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711288091, "dur":24090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711312220, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711312267, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711312307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711312314, "dur":23371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711335725, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711335787, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711335853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711335879, "dur":40839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711376755, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711376877, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711376918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711376922, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711377601, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711377765, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711377806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711377811, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711378540, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711378650, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711378693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711378698, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711379378, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711379487, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711379548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711379554, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711380284, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711380406, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711380451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711380456, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711381150, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711381275, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711381318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711381323, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711382147, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711382190, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711382258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711382264, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711383173, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711383209, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711383250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711383258, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711385926, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711385965, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711386009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711386015, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711386766, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711386800, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711386858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711386863, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711387737, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711387772, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711387810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711387815, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711388780, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711388814, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711388894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711388898, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711389564, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711389598, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711389635, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711389643, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711390493, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711390586, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711390633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711390655, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711392135, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711392169, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711392208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711392215, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711394834, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711394870, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711395092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711395096, "dur":4245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711399376, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711399409, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711399475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711399481, "dur":6247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711405772, "dur":16115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711421895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681156711422322, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681156711423257, "dur":41560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710970882, "dur":285, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710971167, "dur":4000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710975168, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681156710975227, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710975303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710977193, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681156710978202, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681156710978243, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710978278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710978282, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681156710980278, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156710980401, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710980477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710980635, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156710982435, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1681156710982491, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710982567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156710982845, "dur":21527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1681156711004414, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711004460, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711004506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711004513, "dur":81221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711085774, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711085815, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711085856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711085861, "dur":44264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711130230, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711130269, "dur":7784, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711138104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711138114, "dur":42630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711180784, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711180820, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711180867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711180873, "dur":14095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711195224, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711195284, "dur":585, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711195876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711195883, "dur":9664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711205587, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711205623, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711205735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711205741, "dur":56263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711262043, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711262082, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711262125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711262131, "dur":24354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711286529, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711286569, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711286684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711286690, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711287600, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711287634, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711287673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711287679, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711288575, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711288610, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711288652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711288656, "dur":22060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711310758, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711310798, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711310845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711310851, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711312338, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711312384, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711312421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711312425, "dur":25995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711338456, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711338494, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711338834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711338840, "dur":57183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711396102, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711396146, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711396290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711396314, "dur":6199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711402549, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711402583, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711402635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711402638, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681156711408055, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1681156711408176, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711408221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711408225, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1681156711409899, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681156711409939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711409943, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681156711410944, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1681156711410981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711410985, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1681156711411813, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1681156711411852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681156711411856, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1681156711412789, "dur":52025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710970911, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710971212, "dur":3938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710975152, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681156710975285, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710975405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710977673, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681156710979079, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681156710979120, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710979162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710979341, "dur":6253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681156710985639, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156710985684, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710985735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156710985743, "dur":111923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711097715, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711097762, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711097818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711097825, "dur":53392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711151256, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711151292, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711151708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711151714, "dur":148022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711299773, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711299811, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711299857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711299863, "dur":33771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711333673, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711333710, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711333763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711333770, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711336374, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711336410, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711336590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711336594, "dur":4933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711341565, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711342017, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711342062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711342069, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711343193, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711343371, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711343412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711343417, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711344194, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711344734, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711344783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711344789, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711346787, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711346903, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711346950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711346956, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711348121, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711348158, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711348200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681156711348205, "dur":69191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681156711417436, "dur":47391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710970929, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710971215, "dur":3934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710975153, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681156710975225, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710975292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710976724, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681156710978884, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681156710978926, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710979208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710979420, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681156710980686, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1681156710980732, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710980879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710980882, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1681156710983284, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156710983328, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710983379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156710983544, "dur":141490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711125074, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711125115, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711125165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711125172, "dur":54148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711179367, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711179415, "dur":2137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711181561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711181573, "dur":14503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711196114, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711196151, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711196220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711196225, "dur":15695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711211964, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711212003, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711212130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711212136, "dur":57541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711269716, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711269755, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711269800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711269807, "dur":30995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711300840, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711300879, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711300918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711300923, "dur":48455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711349416, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711349453, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711349499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711349505, "dur":38972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711388517, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711388554, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711388595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711388600, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711389884, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711389921, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711389963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711389967, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711391783, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711391819, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711391862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711391867, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711394684, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711394724, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711395040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711395046, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711399619, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711399656, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711399756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711399760, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711402112, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711402148, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711402233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711402238, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711403611, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711403774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711403779, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681156711405773, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1681156711405813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711405869, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1681156711407037, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681156711407078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711407083, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681156711409870, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681156711409911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711409917, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681156711411076, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681156711411113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711411116, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681156711412508, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1681156711412613, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711412652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681156711412656, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1681156711413656, "dur":51173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710970947, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710971219, "dur":3928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710975152, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1681156710975234, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710975321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710977202, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1681156710979984, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1681156710980021, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710980058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156710980062, "dur":24866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1681156711004975, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711005013, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711005052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711005075, "dur":82870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711087992, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711088037, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711088089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711088095, "dur":68441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711156576, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711156617, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711156659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711156665, "dur":29739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711186445, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711186752, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711186818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711186824, "dur":12265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711199133, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711199169, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711199259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711199265, "dur":10918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711210225, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711210263, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711210342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711210349, "dur":43636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711254029, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711254071, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711254123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711254131, "dur":26546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711280714, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711280755, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711280795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711280801, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711281741, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711281782, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711281825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711281831, "dur":28895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711310762, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711310811, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711310852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711310857, "dur":26204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711337096, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711337132, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711337196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711337200, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711339292, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711339422, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711339468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711339473, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711340269, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711340811, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711340892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711340898, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711342202, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711342245, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711342429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711342435, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711343249, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711343609, "dur":1317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711344930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711344935, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711346887, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711346926, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711346967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711346971, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711348027, "dur":1816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711349843, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711349918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711349922, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711350941, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711350976, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711351014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681156711351019, "dur":83572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681156711434629, "dur":30189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710970963, "dur":259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710971222, "dur":3927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710975153, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681156710975248, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710975340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710977391, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681156710978832, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681156710978882, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710979073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710979324, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681156710980429, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156710980471, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710980506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156710980509, "dur":26471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711007025, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711007070, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711007119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711007126, "dur":79157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711086394, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711086439, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711086480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711086485, "dur":38830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711125354, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711125391, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711125431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711125436, "dur":70896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711196370, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711196406, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711196615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711196619, "dur":8824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711205502, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711205548, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711205735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711205741, "dur":54287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711260064, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711260099, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711260141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711260157, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711261145, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711261181, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711261230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711261236, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711262114, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711262152, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711262193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711262198, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711263195, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711263228, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711263266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711263272, "dur":43449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711306758, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711306793, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711306836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711306861, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711307611, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711307645, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711307685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711307690, "dur":26077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711333808, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711333850, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711333893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711333898, "dur":61833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711395778, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711395820, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711395885, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711395893, "dur":5812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711401745, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711401780, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711401820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711401825, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711403584, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711403624, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711403850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711403854, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681156711406120, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681156711406165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711406169, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681156711409082, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1681156711410179, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711410327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681156711410331, "dur":7191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1681156711417559, "dur":47256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710970982, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710971225, "dur":3923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710975153, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681156710975221, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710975277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710976902, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681156710977821, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681156710977862, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710977901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710977906, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681156710979196, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681156710979238, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710979329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710979458, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681156710980833, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo.exe" }}
+,{ "pid":12345, "tid":8, "ts":1681156710980873, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710980927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156710980946, "dur":104744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo.exe" }}
+,{ "pid":12345, "tid":8, "ts":1681156711085729, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711085778, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711085824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711085830, "dur":102061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711187934, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711187972, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711188046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711188053, "dur":42522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711230620, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711230659, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711230719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711230725, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711231587, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711231622, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711231661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711231666, "dur":63041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711294747, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711294783, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711294828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711294833, "dur":4783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711299659, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711299699, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711299864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711299868, "dur":76696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711376604, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711376644, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711376688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681156711376693, "dur":76698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"WindowsBuild/Panteon Strategy Demo_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681156711453419, "dur":11409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681156711467849, "dur":2573, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681156711490951, "dur": 567, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681156711490857, "dur": 676, "ph": "X", "name": "Write chrome-trace events", "args": {} },

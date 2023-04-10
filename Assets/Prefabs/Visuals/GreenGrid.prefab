@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3852571651388408200}
   - component: {fileID: 6880658566217070722}
   - component: {fileID: -2621690177743720747}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GreenGrid
   m_TagString: Tile
   m_Icon: {fileID: 0}

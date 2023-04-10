@@ -19,12 +19,15 @@ public class GridManager : MonoBehaviour
 
     public void CreateTile(int value)
     {
+        GameObject tiles = new GameObject();
+        tiles.transform.name = "Tiles";
         for (int i = 0; i < value; i++)
         {
             
             GameObject tile = Instantiate(gridObjects[i%2], Vector2.zero, quaternion.identity);
             gridObjectList.Add(tile);
             tile.SetActive(false);
+            tile.transform.parent=tiles.transform;
         }
     }
    

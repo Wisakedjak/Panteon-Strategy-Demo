@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7284781268904822041}
   - component: {fileID: -8165585875934073456}
   - component: {fileID: 1609335966335672422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueGrid
   m_TagString: Tile
   m_Icon: {fileID: 0}

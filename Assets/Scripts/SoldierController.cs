@@ -23,6 +23,8 @@ public class SoldierController : MonoBehaviour
         if (pathVectorList!=null&& pathVectorList.Count>1)
         {
             pathVectorList.RemoveAt(0);
+            
+           
         }
 
         startMoving = true;
@@ -39,10 +41,10 @@ public class SoldierController : MonoBehaviour
         if (pathVectorList!=null&& pathVectorList.Count>1)
         {
             pathVectorList.RemoveAt(0);
-            startMoving = true;
-            TouchControlManager.Instance.isSoldierMoving = true;
+           
+           
         }
-
+        startMoving = true;
       
     }
 
@@ -51,7 +53,7 @@ public class SoldierController : MonoBehaviour
         if (pathVectorList!=null)
         {
             Vector3 targetPosition = pathVectorList[_currentPathIndex];
-            if (Vector3.Distance(transform.position,targetPosition)>.1f)
+            if (Vector3.Distance(transform.position,targetPosition)>.5f)
             {
                 Vector3 moveDir = (targetPosition - transform.position).normalized;
                 float distanceBefore = Vector3.Distance(transform.position, targetPosition);
